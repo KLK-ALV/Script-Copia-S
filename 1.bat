@@ -13,12 +13,12 @@ echo.
 echo Bienvenido, como estas?
 pause
 : abajo
-color 48
+color f0
 echo Ese nombre es PODEROSOOO!!!!!!!!
 pause
 exit
 : mas_abajo 
 color 06
-echo FUERA DE AQUI!!
+echo FUERA DE AQUI PIROBO!!
 pause
 exit 
