@@ -1,7 +1,24 @@
 @echo off
+color 80
 echo hola!
-set /p nombre=Como te llamas?
+pause
+set /p nombre=como te llamas?
 echo.
-echo Bienvenido %nombre%, como estas?
+if %nombre%==Larry (
+    goto abajo
+) else (
+    goto mas_abajo 
+)
+echo.
+echo Bienvenido, como estas?
 pause
+: abajo
+color 48
+echo Ese nombre es PODEROSOOO!!!!!!!!
 pause
+exit
+: mas_abajo 
+color 06
+echo FUERA DE AQUI!!
+pause
+exit 
